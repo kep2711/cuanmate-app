@@ -50,7 +50,7 @@ export async function register(formData: FormData) {
   if (!data.session) {
     return {
       message:
-        "Registrasi berhasil! Cek email kamu untuk konfirmasi sebelum login.",
+        "Registrasi berhasil! Cek spam email kamu untuk konfirmasi sebelum login.",
     };
   }
 
