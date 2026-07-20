@@ -15,12 +15,10 @@ export default function Home() {
         Welcome to Cuanmate
       </h1>
       <p className="mt-2 text-lg">your personal finance app with AI</p>
-      <Link href="/dashboard">
-
-        <Button className="mt-2 bg-emerald-700" size="lg">
+      <Link href="/login">
+        <Button className="mt-2 bg-emerald-700" size="lg" >
           Get Started
         </Button>
-
       </Link>
     </main>
   );
